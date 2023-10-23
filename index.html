@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="soundtouch.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+
+  <label for="fileInput">Select an audio File:</label>
+  <input type="file" id="fileInput">
+  
+  <button id="playButton">Play</button>
+  <button id="pauseButton">Pause</button>
+  
+  <label for="tempoSlider">Tempo:</label>
+  <input type="range" id="tempoSlider" min="0.5" max="2" step="0.05" value="1">
+  
+  <label for="pitchSlider">Pitch:</label>
+  <input type="range" id="pitchSlider" min="0.5" max="2" step="0.05" value="1">
+
+  <br>
+  <label for="seekSlider">Seek:</label>
+  <input type="range" id="seekSlider" min="0" max="1" value="0" step="0.01">
+  <div id="currentTime">0:00</div>
+  <!-- <audio src="ir_p1.wav"></audio> -->
+</body>
+</html>
