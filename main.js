@@ -1,4 +1,4 @@
-const BUFFER_SIZE = 8192;
+const BUFFER_SIZE = 1024;
 
 class AudioPlayer {
   constructor({emitter, pitch, tempo}) {
